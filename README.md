@@ -14,14 +14,14 @@ See [Docker Hub](https://registry.hub.docker.com/u/nkwhr/fastladder/) for more i
 
 ### Run Fastladder with MySQL
 
-There's a sample script to start/stop Fastladder with MySQL.
+There's a sample script to start/stop Fastladder with MySQL. Data will be permanently stored in `docker-fastladder/data` by default.
 
 ```
 $ git clone https://github.com/nkwhr/docker-fastladder
 $ cd docker-fastladder
 ```
 
-Edit `MYSQL_PASSWORD` in start.sh
+Edit `MYSQL_PASSWORD` in start.sh.
 
 ```
 $ vi start.sh
