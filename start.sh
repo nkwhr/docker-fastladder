@@ -14,6 +14,8 @@ docker run \
        --name fastladder_db \
        mysql:5.6
 
+sleep 10
+
 echo -n "=> Starting fastladder_web: "
 
 docker run \
